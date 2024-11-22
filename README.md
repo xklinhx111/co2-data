@@ -31,20 +31,20 @@ The dataset is built upon a number of datasets and processing steps:
 - Primary energy consumption (Our World in Data based on EI's Statistical review of world energy & EIA's International energy data):
   - [Processing code](https://github.com/owid/etl/blob/master/etl/steps/data/garden/energy/2024-06-20/primary_energy_consumption.py)
 - Global carbon budget - Fossil CO2 emissions (Global Carbon Project):
-  - [Source data](https://zenodo.org/records/10177738)
-  - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/gcp/2023-12-12/global_carbon_budget.py)
+  - [Source data](https://zenodo.org/records/13981696/files/GCB2024v17_MtCO2_flat.csv)
+  - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/gcp/2024-11-13/global_carbon_budget.py)
 - Global carbon budget - Global carbon emissions (Global Carbon Project):
-  - [Source data](https://globalcarbonbudgetdata.org/downloads/latest-data/Global_Carbon_Budget_2023v1.0.xlsx)
-  - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/gcp/2023-12-12/global_carbon_budget.py)
+  - [Source data](https://globalcarbonbudgetdata.org/downloads/jGJH0-data/Global_Carbon_Budget_2024_v1.0.xlsx)
+  - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/gcp/2024-11-13/global_carbon_budget.py)
 - Global carbon budget - National fossil carbon emissions (Global Carbon Project):
-  - [Source data](https://globalcarbonbudgetdata.org/downloads/latest-data/National_Fossil_Carbon_Emissions_2023v1.0.xlsx)
-  - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/gcp/2023-12-12/global_carbon_budget.py)
+  - [Source data](https://globalcarbonbudgetdata.org/downloads/jGJH0-data/National_Fossil_Carbon_Emissions_2024v1.0.xlsx)
+  - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/gcp/2024-11-13/global_carbon_budget.py)
 - Global carbon budget - National land-use change carbon emissions (Global Carbon Project):
-  - [Source data](https://globalcarbonbudgetdata.org/downloads/latest-data/National_LandUseChange_Carbon_Emissions_2023v1.0.xlsx)
-  - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/gcp/2023-12-12/global_carbon_budget.py)
+  - [Source data](https://globalcarbonbudgetdata.org/downloads/jGJH0-data/National_LandUseChange_Carbon_Emissions_2024v1.0.xlsx)
+  - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/gcp/2024-11-13/global_carbon_budget.py)
 - Global carbon budget (Our World in Data based on the Global Carbon Project's Fossil CO2 emissions, Global carbon emissions, National fossil carbon emissions, and National land-use change emissions):
-  - [Basic processing code](https://github.com/owid/etl/blob/master/etl/steps/data/meadow/gcp/2023-12-12/global_carbon_budget.py)
-  - [Further processing code](https://github.com/owid/etl/blob/master/etl/steps/data/garden/gcp/2024-06-20/global_carbon_budget.py)
+  - [Basic processing code](https://github.com/owid/etl/blob/master/etl/steps/data/meadow/gcp/2024-11-13/global_carbon_budget.py)
+  - [Further processing code](https://github.com/owid/etl/blob/master/etl/steps/data/garden/gcp/2024-11-13/global_carbon_budget.py)
 - National contributions to climate change (Jones et al. (2024)):
   - [Source data](https://zenodo.org/records/7636699/latest)
   - [Ingestion code](https://github.com/owid/etl/blob/master/snapshots/emissions/2024-04-08/national_contributions.py)
@@ -75,6 +75,8 @@ Additionally, to construct indicators per capita and per GDP, we use the followi
 
 ## Changelog
 
+- 2024-11-21:
+  - Updated dataset (and codebook) to use the latest version of the Global Carbon Budget (2024).
 - 2024-06-20:
   - Update data from the Statistical Review of World Energy.
   - Update data from the Maddison Project Database.
@@ -135,11 +137,12 @@ The data produced by third parties and made available by _Our World in Data_ is 
 
 This data has been collected, aggregated, and documented by Hannah Ritchie, Max Roser, Edouard Mathieu, Bobbie Macdonald and Pablo Rosado.
 
-The mission of *Our World in Data* is to make data and research on the world’s largest problems understandable and accessible. [Read more about our mission](https://ourworldindata.org/about).
+The mission of *Our World in Data* is to make data and research on the world's largest problems understandable and accessible. [Read more about our mission](https://ourworldindata.org/about).
 
 
 ## How to cite this data?
 
-If you are using this dataset, please cite both [Our World in Data](https://ourworldindata.org/co2-and-greenhouse-gas-emissions#citation) and the underlying data source(s).
+If you are using this dataset, please cite both [Our World in Data](https://ourworldindata.org/co2-and-greenhouse-gas-emissions#article-citation) and the underlying data source(s).
 
 Please follow [the guidelines in our FAQ](https://ourworldindata.org/faqs#citing-work-produced-by-third-parties-and-made-available-by-our-world-in-data) on how to cite our work.
+
