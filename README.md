@@ -1,4 +1,4 @@
-# Data on CO2 and Greenhouse Gas Emissions by *Our World in Data*
+# Data on CO2 and Greenhouse Gas Emissions by *Our World in Data 20dec2024*
 
 Our complete CO2 and Greenhouse Gas Emissions dataset is a collection of key metrics maintained by [*Our World in Data*](https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions). It is updated regularly and includes data on CO2 emissions (annual, per capita, cumulative and consumption-based), other greenhouse gases, energy mix, and other relevant metrics.
 
